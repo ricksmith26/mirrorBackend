@@ -1,11 +1,10 @@
-const express = require('express');
-const mongoose = require('mongoose');
+const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
-const bodyParser = require('body-parser');
-const cors = require('cors');
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
-const { DB_URL } = process.env.DB_URL || require('./config').DB_URL;
-
+const { DB_URL } = process.env.DB_URL || require("./config").DB_URL;
 app.use(cors());
 
 mongoose.connect(DB_URL).then(() => {

@@ -1,3 +1,3 @@
-module.export = {
-  Users: require('./userModel')
+module.exports = {
+  Users: require("./userModel")
 };

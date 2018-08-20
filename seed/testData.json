@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "Rick",
+    "lastName": "Smith",
+    "screenName": "Your Highness",
+    "workStreetNo": "Federation House",
+    "street": "Federation Street",
+    "city": "Manchester",
+    "postcode": "M4 2AH",
+    "authentication": []
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Naish",
+    "screenName": "My Lord",
+    "workStreetNo": "Federation House",
+    "street": "Federation Street",
+    "city": "Manchester",
+    "postcode": "M4 2AH",
+    "authentication": []
+  }
+]

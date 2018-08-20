@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
@@ -8,25 +8,25 @@ const UserSchema = new Schema({
   },
   lastName: {
     type: String,
-    requied: true
+    required: true
   },
-  ScreenName: {
+  screenName: {
     type: String,
     required: true
   },
-  WorkStreetNo: {
+  workStreetNo: {
     type: String,
     required: true
   },
   street: {
     type: String,
-    requied: true
+    required: true
   },
-  City: {
+  city: {
     type: String,
     required: true
   },
-  Postcode: {
+  postcode: {
     type: String,
     required: true
   },
@@ -36,4 +36,4 @@ const UserSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('users', UserSchema);
+module.exports = mongoose.model("users", UserSchema);
